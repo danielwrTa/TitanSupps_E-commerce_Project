@@ -36,17 +36,6 @@ header {
     color: #e5352c;
 }
 
-.voltar {
-    font-size: 0.85rem;
-    color: #fff;
-    text-decoration: none;
-}
-
-.voltar:hover {
-    color: #e5352c;
-}
-
-
 main {
     max-width: 1100px;
     margin: 0 auto;
