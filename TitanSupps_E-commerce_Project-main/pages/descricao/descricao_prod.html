@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Produto - Titan Suplementos</title>
+    <link rel="stylesheet" href="descricao.css">
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+
+    <header class="site-header">
+      <div class="wrap header-row">
+        <a class="brand" href="../../index.html" aria-label="Titan Supps início"><span class="brand-mark">T</span><span>TITAN<span class="brand-red">SUPPS</span></span></a>
+        <nav class="nav-links" aria-label="Menu principal">
+          <a href="../../index.html#inicio">Início</a>
+          <a href="../../index.html#produtos">Produtos</a>
+          <a href="descricao_prod.html" class="active" aria-current="page">Descrição</a>
+          <a href="../sobre/sobre.html">Sobre</a>
+        </nav>
+        <a class="header-cart" href="../carrinho/carrinho.html">Carrinho <span id="cart-count">0</span></a>
+        <a href="../login/login.html" id="nav-usuario" class="login-link">Entrar</a>
+      </div>
+    </header>
+
+    <main class="container">
+        <section id="area-produto" class="card card-produto">
+            <div class="produto-grid">
+                
+                <!-- Imagem do Suplemento -->
+                <div class="produto-imagem-box">
+                    <img id="prod-imagem" src="" alt="Imagem do suplemento">
+                </div>
+
+                <!-- Detalhes e Compra -->
+                <div class="produto-detalhes">
+                    <div class="tags-linha">
+                        <span id="prod-categoria" class="tag-categoria">Categoria</span>
+                        <span id="prod-tag" class="tag-destaque">Destaque</span>
+                    </div>
+
+                    <p id="prod-marca" class="texto-marca">Marca • Tamanho</p>
+                    <h1 id="prod-nome">Carregando suplemento...</h1>
+                    
+                    <div class="bloco-precos">
+                        <span id="prod-preco-antigo" class="preco-antigo oculto">R$ 0,00</span>
+                        <p id="prod-preco" class="preco-destaque">R$ 0,00</p>
+                    </div>
+                    
+                    <p id="prod-resumo" class="texto-resumo"></p>
+
+                    <div class="box-descricao">
+                        <strong>Informações do produto:</strong>
+                        <p id="prod-descricao"></p>
+                    </div>
+
+                    <div class="campo">
+                        <label for="prod-qtd">Quantidade</label>
+                        <input type="number" id="prod-qtd" value="1" min="1" max="10">
+                    </div>
+
+                    <div id="mensagem-feedback" class="feedback oculto"></div>
+
+                    <div class="acoes-produto">
+                        <button id="btn-adicionar" class="btn btn-vermelho full">Adicionar ao Carrinho</button>
+                        <a href="../../index.html#produtos" class="btn btn-outline full">Voltar para Produtos</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <script src="descricao.js"></script>
+</body>
+</html>
